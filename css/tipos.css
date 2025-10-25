@@ -73,6 +73,63 @@ header {
   }
 }
 
+/* Sección */
+
+main {
+  background-color: var(--background-white-secondary);
+}
+
+section {
+  h1 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .container-cards {
+    .mi-card {
+      border: 1px solid #d9d5ce;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+
+      .card-hero {
+        background-color: #f2f0eb;
+
+        .hero-text {
+          p {
+            background-color: #e8000c;
+            color: #ffffff;
+          }
+
+          .herbívoro {
+            background-color: var(--background-color-secondary);
+          }
+        }
+
+        p {
+          color: var(--text-3);
+        }
+      }
+
+      .container-list {
+        color: var(--text-3);
+      }
+
+      .container-tipos {
+        p {
+          background-color: var(--background-white-secondary);
+          border: 1px solid #d9d5ce;
+        }
+      }
+    }
+
+    .dato {
+      background-color: var(--background-color-primary);
+    }
+  }
+}
+
 /* footer */
 
 footer {
