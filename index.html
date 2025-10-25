@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,8 +33,607 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-start" href="./index.html">
+            <img
+              class="img-logo"
+              src="./src/img/logo/logo.png"
+              alt="Logo de la pagina Mundo dinosaurio"
+            />
+            <h2 class="fs-4">Mundo dinosaurio</h2>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav nav-pills">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Periodos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Extinción</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Descubrimiento</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="hero">
+          <div class="hero-text">
+            <h1 class="text-center fw-bold pb-4">
+              Bienvenido al mundo de los dinosaurios
+            </h1>
+            <p class="fs-4 text-center lh-base pb-4">
+              Explora la fascinante era de los gigantes prehistórico que
+              dominaron la tierra durante millones de años. Descubre sus tipos,
+              los períodos en que vivieron, cómo se extinguieron y los
+              increíbles descubrimientos que continúan recelando sis secretos
+            </p>
+            <div class="text-center">
+              <button class="btn btn-primary boton-1" type="submit">
+                Explora tipos
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-right"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M5 12l14 0" />
+                  <path d="M13 18l6 -6" />
+                  <path d="M13 6l6 6" />
+                </svg>
+              </button>
+              <button class="btn btn-primary boton-2" type="submit">
+                Ver descubrimientos
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-2 py-5">
+        <div class="container">
+          <h2 class="text-center fs-1 fw-semibold">
+            Conoce a los gigantes prehistórico
+          </h2>
+          <p class="text-center">
+            Descubre algunos de los dinosaurios más fascinantes que habitaron
+            nuestro planeta
+          </p>
+          <div class="bento-grid">
+            <div class="rex">
+              <div class="container-card-text">
+                <h3>Tyrannosaurus Rex</h3>
+                <p>
+                  El rey de kis dinosaurios carnívoros. Con dientes de hasta
+                  30cm y una mordida más poderosa que cualquier animal terrestre
+                  conocido.
+                </p>
+              </div>
+              <div class="container-especie">
+                <span>Cretácico</span>
+                <span>Carnívoro</span>
+              </div>
+            </div>
+            <div class="saurus">
+              <div class="container-card-brachio">
+                <h3>Brachiosaurus</h3>
+                <p>
+                  Uno de los dinosaurios más altos, alcanzando hasta 13 metros
+                  de altura.
+                </p>
+              </div>
+              <div class="container-especie-2">
+                <span>Herbívoro</span>
+              </div>
+            </div>
+            <div class="Trice">
+              <div class="container-card-trice">
+                <h3>Triceratops</h3>
+                <p>Tres cuernos y un collar óseo para defensa.</p>
+              </div>
+            </div>
+            <div class="tierra">
+              <h3>165M</h3>
+              <p>Años que los dinosaurios dominaron la tierra</p>
+            </div>
+            <div class="Velo">
+              <div class="container-card-velo">
+                <h3>Velociraptor</h3>
+                <p>Cazador inteligente y ágil del Cretácico.</p>
+              </div>
+            </div>
+            <div class="Especie">
+              <div class="container-card-especie">
+                <h3>700+</h3>
+                <p>Especies de dinosaurios identificadas</p>
+              </div>
+            </div>
+            <div class="Stego">
+              <div class="container-card-stego">
+                <h3>Stegosaurus</h3>
+                <p>
+                  Famoso por sus placas dorsales y cola con púas. Un herbívoro
+                  del Jurásico con un cerebro del tamaño de una nuez..
+                </p>
+              </div>
+              <div class="container-especie-3">
+                <span>Jurásico</span>
+                <span>Herbívoro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3 py-5">
+        <div class="container">
+          <h2 class="text-center fs-1">¿Qué son los dinosaurios?</h2>
+          <p class="text-center fs-5">
+            Los dinosaurios fueron un grupo diverso de reptiles que dominaron
+            los ecosistemas terrestres durante más de 160 millones de años,
+            desde el período Triásico (hace aproximadamente 230 millones de
+            años) hasta el final del período Cretácico (hace 66 millones de
+            años).
+          </p>
+          <p class="text-center fs-5">
+            El término "dinosaurio" proviene del griego y significa "lagarto
+            terrible". Sin embargo, estos animales eran mucho más diversos y
+            fascinantes de lo que su nombre sugiere. Variaban enormemente en
+            tamaño, desde especies del tamaño de un pollo hasta gigantes de más
+            de 30 metros de largo.
+          </p>
+          <p class="text-center fs-5">
+            Aunque la mayoría se extinguió hace millones de años, su legado
+            continúa vivo: las aves modernas son descendientes directos de los
+            dinosaurios terópodos, lo que significa que técnicamente, ¡los
+            dinosaurios nunca se extinguieron completamente!
+          </p>
+        </div>
+      </section>
+      <section class="section-4 py-5">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-4">Explora los temas</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col col-md-6">
+              <div class="card h-100 p-3">
+                <a href="#" class="text-decoration-none">
+                  <div class="d-flex align-items-center hero-card mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-bone p-1"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M15 3a3 3 0 0 1 3 3a3 3 0 1 1 -2.12 5.122l-4.758 4.758a3 3 0 1 1 -5.117 2.297l0 -.177l-.176 0a3 3 0 1 1 2.298 -5.115l4.758 -4.758a3 3 0 0 1 2.12 -5.122z"
+                      />
+                    </svg>
+                    <h3 class="ms-3">Tipos de dinosaurio</h3>
+                  </div>
+                  <p>Descubre la increíble de especies</p>
+                  <p>
+                    Explora los diferentes grupos de dinosaurio carnívoros
+                    feroces, herbívoros gigantes, dinosaurio de cuernos,
+                    acorazados y mucho más
+                  </p>
+                  <div class="link-explorar">
+                    <span>Explora tipos</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M5 12l14 0" />
+                      <path d="M15 16l4 -4" />
+                      <path d="M15 8l4 4" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col col-md-6">
+              <div class="card h-100 p-3">
+                <a href="#" class="text-decoration-none">
+                  <div class="d-flex align-items-center hero-card fondo mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-month p-1"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z"
+                      />
+                      <path d="M16 3v4" />
+                      <path d="M8 3v4" />
+                      <path d="M4 11h16" />
+                      <path d="M8 14v4" />
+                      <path d="M12 14v4" />
+                      <path d="M16 14v4" />
+                    </svg>
+                    <h3 class="ms-3">Períodos geológicos</h3>
+                  </div>
+                  <p>Viaja a través del tiempo prehistórico</p>
+                  <p>
+                    Conoce los tres períodos principales de la era Mesozoica,
+                    Tríasico, Jurpasico t Cretásico y los dinosaurio que
+                    vivieron en cada uno
+                  </p>
+                  <div class="link-explorar">
+                    <span>Ver período</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M5 12l14 0" />
+                      <path d="M15 16l4 -4" />
+                      <path d="M15 8l4 4" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col col-md-6">
+              <div class="card h-100 p-3">
+                <a href="#" class="text-decoration-none">
+                  <div class="d-flex align-items-center hero-card fondo mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-skull p-1"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path
+                        d="M12 4c4.418 0 8 3.358 8 7.5c0 1.901 -.755 3.637 -2 4.96l0 2.54a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-2.54c-1.245 -1.322 -2 -3.058 -2 -4.96c0 -4.142 3.582 -7.5 8 -7.5z"
+                      />
+                      <path d="M10 17v3" />
+                      <path d="M14 17v3" />
+                      <path d="M9 11m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                      <path d="M15 11m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    </svg>
+                    <h3 class="ms-3">La gran extinción</h3>
+                  </div>
+                  <p>El misterio del fin de una era</p>
+                  <p>
+                    Descubre las teorías sobre la extinción masiva que acabó con
+                    los dinosaurios hace 66 millones de años y cambió el curso
+                    de la vida en la tierra.
+                  </p>
+                  <div class="link-explorar">
+                    <span>Explora tipos</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M5 12l14 0" />
+                      <path d="M15 16l4 -4" />
+                      <path d="M15 8l4 4" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col col-md-6">
+              <div class="card h-100 p-3">
+                <a href="#" class="text-decoration-none">
+                  <div class="d-flex align-items-center hero-card mb-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-search p-1"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                      <path d="M21 21l-6 -6" />
+                    </svg>
+                    <h3 class="ms-3">Descubrimientos y fósiles</h3>
+                  </div>
+                  <p>La ciencia que revela el pasado</p>
+                  <p>
+                    Aprende como los paleontólogos descubren y estudian fósiles,
+                    y conocen algunos de los hallazgos más importantes de la
+                    historia
+                  </p>
+                  <div class="link-explorar">
+                    <span>Explora tipos</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-narrow-right"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M5 12l14 0" />
+                      <path d="M15 16l4 -4" />
+                      <path d="M15 8l4 4" />
+                    </svg>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-5 py-5">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-3">Datos fascinantes</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col contenedor-card">
+              <div class="card h-100 px-3 py-1">
+                <div class="card-body">
+                  <h3 class="card-title">160+ millones de años</h3>
+                  <p class="card-text">
+                    Los dinosaurios dominaron la Tierra durante más de 160
+                    millones de años, mucho más tiempo que los humanos modernos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col contenedor-card">
+              <div class="card h-100 px-3 py-1">
+                <div class="card-body">
+                  <h3 class="card-title">Más de 700 Especies</h3>
+                  <p class="card-text">
+                    Se han identificado más de 700 especies diferentes de
+                    dinosaurios, y se descubren nuevas especies regularmente.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col contenedor-card">
+              <div class="card h-100 px-3 py-1">
+                <div class="card-body">
+                  <h3 class="card-title">Las Aves son Dinosaurios</h3>
+                  <p class="card-text">
+                    Las aves modernas son descendientes directos de los
+                    dinosaurios terópodos, lo que las convierte en dinosaurios
+                    vivientes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="my-5">
+      <div class="container">
+        <div class="row d-flex justify-content-between pb-3">
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Mundo Dinosaurio</p>
+            <small
+              >Explora el fascinante mundo de los dinosaurios y descubre los
+              secretos de la era prehistórica</small
+            >
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Explorar</p>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="./index.html" class="text-decoration-none">Inicio</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none"
+                  >Tipos de dinosaurios</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Períodos geológicos</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Extinción</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Descubrimientos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">recursos</p>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Glosario</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Línea de Tiempo</a>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="text-decoration-none">Galería de Imágenes</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Para Educadores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-auto">
+            <p class="fs-5">Síguenos</p>
+            <div class="redes">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook p-2"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter p-2"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram p-2"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                />
+                <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M16.5 7.5v.01" />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube p-2"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z"
+                />
+                <path d="M10 9l5 3l-5 3z" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between mt-4">
+          <span>© 2025 Mundo Dinosaurio. Todos los derechos reservados</span>
+          <ul class="d-flex list-unstyled">
+            <li><a href="#" class="text-decoration-none">Privacidad</a></li>
+            <li><a href="#" class="text-decoration-none">Términos</a></li>
+            <li><a href="#" class="text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
