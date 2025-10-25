@@ -576,6 +576,14 @@ header {
   }
 }
 
+@media screen and (max-width: 374px) {
+  .section-2 {
+    .container-section-2 {
+      width: 100%;
+    }
+  }
+}
+
 /* Section 2 tablet */
 
 @media screen and (min-width: 431px) and (max-width: 1024px) {
