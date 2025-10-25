@@ -63,10 +63,84 @@ header {
   }
 }
 
+/* Header animación */
+
 @keyframes enhance-header {
   100% {
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
     color: black;
+  }
+}
+
+/* footer */
+
+footer {
+  background-color: #ffffff;
+
+  .container {
+    .row {
+      border-bottom: 1px solid #d9d5ce;
+      .col-12 {
+        p {
+          color: var(--background-color-primary);
+          font-family: "Open Sans", sans-serif;
+        }
+
+        small {
+          color: var(--text-3);
+          font-family: "Open Sans", sans-serif;
+        }
+
+        ul {
+          li {
+            a {
+              color: var(--text-3);
+              font-family: "Open Sans", sans-serif;
+
+              &:hover {
+                color: #2b2723;
+              }
+            }
+          }
+        }
+
+        .redes {
+          svg {
+            width: 2.5rem;
+            height: 2.5rem;
+            background-color: var(--text-2);
+            border-radius: 50%;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              background-color: var(--background-color-primary);
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+
+    .d-flex {
+      span {
+        color: var(--text-3);
+      }
+
+      ul {
+        gap: 1rem;
+
+        li {
+          a {
+            color: var(--text-3);
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              color: var(--background-color-primary);
+            }
+          }
+        }
+      }
+    }
   }
 }
