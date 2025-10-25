@@ -135,9 +135,30 @@ header {
   }
 }
 
+/* Hero móvil */
+
 @media screen and (max-width: 430px) {
   .hero {
     height: 60rem;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    .hero-text {
+      .text-center {
+        width: 90%;
+        gap: 1rem;
+      }
+    }
+  }
+}
+
+/* Hero tablet */
+
+@media screen and (min-width: 431px) and (max-width: 824px) {
+  .hero {
+    height: 50rem;
   }
 }
 
@@ -145,7 +166,10 @@ header {
 
 .section-2 {
   background-color: var(--background-white-primary);
-  .container {
+  .container-section-2 {
+    width: 70%;
+    margin: auto;
+
     h2 {
       font-family: "Raleway", sans-serif;
     }
@@ -513,12 +537,16 @@ header {
   }
 }
 
+/* Section 2 móvil */
+
 @media screen and (max-width: 430px) {
   .section-2 {
-    .container {
+    .container-section-2 {
       .bento-grid {
+        margin: 0;
+        padding: 0;
         grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-rows: repeat(7, 1fr);
 
         > * {
           grid-column: auto !important;
@@ -526,12 +554,47 @@ header {
         }
 
         .rex {
-          grid-column: 1/2;
+          grid-column: 1/1;
           grid-row: 1/2;
         }
 
         .saurus {
-          grid-column: 1/2;
+          grid-column: 1/-1;
+          grid-row: 2/3;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .section-2 {
+    .container-section-2 {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}
+
+/* Section 2 tablet */
+
+@media screen and (min-width: 431px) and (max-width: 1024px) {
+  .section-2 {
+    .container-section-2 {
+      width: 80%;
+      margin: auto;
+
+      .bento-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        .rex {
+          grid-column: 1/4;
+          grid-row: 1/2;
+        }
+
+        .saurus {
+          grid-column: 1/4;
           grid-row: 2/3;
         }
       }
