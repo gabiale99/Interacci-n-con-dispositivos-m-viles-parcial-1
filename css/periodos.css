@@ -73,6 +73,100 @@ header {
   }
 }
 
+/* Sección 1 */
+
+main {
+  background-color: var(--background-white-secondary);
+}
+
+.section-1 {
+  h1 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-3);
+  }
+
+  .container-edad {
+    background-color: var(--background-white-primary);
+    box-shadow: 0 5px 15px -4px var(--shadow);
+
+    .edad {
+      transition: 0.3s ease-in-out;
+
+      p {
+        transition: 0.3s ease-in-out;
+      }
+
+      &:hover {
+        background-color: var(--background-color-secondary);
+        color: #ffffff;
+        border-radius: 8px;
+
+        p {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.section-2 {
+  .container {
+    .conteiner-title {
+      p {
+        background-color: var(--background-color-secondary);
+        color: #ffffff;
+      }
+    }
+
+    p {
+      color: var(--text-3);
+    }
+
+    .container-cards {
+      border-bottom: 1px solid #d9d5ce;
+
+      .container-card {
+        background-color: #ffffff;
+        box-shadow: 0 5px 15px -4px var(--shadow);
+        border: 1px solid #d9d5ce;
+
+        p {
+          color: var(--text-3);
+        }
+
+        ul {
+          li {
+            color: var(--text-3);
+          }
+        }
+
+        .card-body {
+          .list-card {
+            border-left: 1px solid var(--text-primary);
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+              background-color: var(--background-white-primary);
+            }
+          }
+        }
+      }
+
+      .card-tamaño {
+        height: 20.7rem;
+      }
+
+      .dato {
+        background-color: var(--background-color-primary);
+      }
+    }
+  }
+}
+
 /* footer */
 
 footer {
