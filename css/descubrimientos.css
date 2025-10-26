@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --background-color-primary: #595800;
+  --background-color-secondary: #b54d10;
+  --background-color-secondary-hover: #923d0c;
+
+  --background-white-primary: #fcf9f2;
+  --background-white-secondary: #f5f1eb;
+
+  --text-primary: #291f17;
+  --text-secondary: #fcf9f2;
+  --text-2: #ede9dd;
+  --text-3: #6b6057;
+
+  --shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+
+header {
+  background-color: var(--background-white-primary);
+  position: sticky;
+  top: 0;
+  animation: enhance-header linear both;
+  animation-timeline: scroll(root block);
+  animation-range: 0 200px;
+  z-index: 10;
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+          width: 2rem;
+        }
+
+        h2 {
+          font-family: "Raleway", sans-serif;
+        }
+      }
+    }
+
+    .nav-pills {
+      gap: 1rem;
+
+      .nav-item {
+        .active {
+          background-color: var(--background-color-primary);
+          color: var(--text-2);
+        }
+
+        .nav-link {
+          font-family: "Open Sans", sans-serif;
+          transition: 0.3s ease-in-out;
+
+          &:hover {
+            background-color: var(--background-color-secondary);
+            color: var(--text-2);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Header animación */
+
+@keyframes enhance-header {
+  100% {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    color: black;
+  }
+}
