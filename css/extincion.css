@@ -73,6 +73,157 @@ header {
   }
 }
 
+/* Main */
+
+main {
+  background-color: var(--background-white-primary);
+}
+
+/* Sección 1 */
+
+.seccion-1 {
+  h1 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-3);
+  }
+
+  .container-card {
+    background-color: #ffffff;
+    border: 1px solid #d9d5ce;
+
+    .conteiner-hero-card {
+      p {
+        color: var(--text-primary);
+      }
+    }
+
+    p {
+      color: var(--text-primary);
+    }
+  }
+}
+
+/* Sección 2 */
+
+.section-2 {
+  h2 {
+    font-family: "Raleway", sans-serif;
+  }
+  .container-impacto {
+    background-color: #ffffff;
+    border: 1px solid #d9d5ce;
+
+    p {
+      color: var(--text-3);
+    }
+
+    .impacto-hero {
+      svg {
+        width: 2rem;
+        height: 2rem;
+        color: #e8000c;
+        background-color: #fae5e3;
+      }
+    }
+
+    .container-card {
+      background-color: var(--background-white-primary);
+      border: 1px solid #d9d5ce;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+    }
+  }
+}
+
+/* Sección 3 */
+
+.section-3 {
+  h2 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  .d-flex {
+    .conteiner-card-seccion-3 {
+      background-color: #ffffff;
+      border: 1px solid #d9d5ce;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+
+      .card-hero {
+        svg {
+          width: 2.5rem;
+          height: 2.5rem;
+          color: var(--background-color-secondary);
+          background-color: #f5ebe4;
+        }
+      }
+
+      p {
+        color: var(--text-3);
+      }
+    }
+  }
+}
+
+/* Sección 4 */
+
+.section-4 {
+  h2 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-3);
+  }
+
+  .conteiner-sobrevivio {
+    background-color: #ffffff;
+    border: 1px solid #d9d5ce;
+    box-shadow: 0 5px 15px -4px var(--shadow);
+
+    .container-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1rem;
+
+      .container-list {
+        border-left: 1px solid var(--text-primary);
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          background-color: var(--background-white-primary);
+          border-radius: 0 3px 3px 0;
+        }
+      }
+    }
+  }
+}
+
+/* Sección 4 móvil */
+
+@media screen and (max-width: 430px) {
+  .section-4 {
+    .conteiner-sobrevivio {
+      .container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+      }
+    }
+  }
+}
+
+/* section 5 */
+
+.section-5 {
+  .container-extincion {
+    background-color: var(--background-color-primary);
+  }
+}
+
 /* footer */
 
 footer {
