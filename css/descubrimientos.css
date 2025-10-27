@@ -73,6 +73,132 @@ header {
   }
 }
 
+/* Main */
+
+main {
+  background-color: var(--background-white-primary);
+}
+
+/* Sección 1 */
+
+.section-1 {
+  h2,
+  h3,
+  h4 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-3);
+  }
+
+  .container-card-fosiles {
+    background-color: #ffffff;
+    border: 1px solid #d9d5ce;
+    box-shadow: 0 5px 15px -4px var(--shadow);
+
+    .container-card-hero {
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        color: var(--background-color-primary);
+        background-color: #edece1;
+      }
+    }
+
+    .dato {
+      background-color: var(--background-white-secondary);
+
+      p {
+        color: var(--text-primary);
+      }
+    }
+  }
+}
+
+/* Sección 2 */
+
+.section-2 {
+  h2 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .container-card-historia {
+    background-color: #ffffff;
+    border: 1px solid #d9d5ce;
+    box-shadow: 0 5px 15px -4px var(--shadow);
+
+    .container-hero-card-historia {
+      background-color: var(--background-white-primary);
+
+      .container-hero-text {
+        p {
+          background-color: var(--background-color-secondary);
+        }
+      }
+    }
+
+    .text-card {
+      color: var(--text-3);
+      border-bottom: 1px solid #d9d5ce;
+    }
+
+    .container-text-cards {
+      .container-text-card {
+        .d-flex {
+          svg {
+            color: var(--background-color-primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Sección 3 */
+
+.section-3 {
+  h2,
+  h3 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  p,
+  li {
+    font-family: "Open Sans", sans-serif;
+    color: var(--text-3);
+  }
+
+  .container-tecnologia {
+    .container-tecnologia-card {
+      background-color: #ffffff;
+      border: 1px solid #d9d5ce;
+      box-shadow: 0 5px 15px -4px var(--shadow);
+    }
+  }
+}
+
+/* Sección 4 */
+
+.section-4 {
+  .container-futuro {
+    background-color: var(--background-color-primary);
+
+    h2 {
+      font-family: "Raleway", sans-serif;
+    }
+
+    p {
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+
 /* footer */
 
 footer {
